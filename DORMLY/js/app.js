@@ -13,8 +13,8 @@ const FACS=[['Study Room','Quiet space for up to 6 residents'],['Function Room',
 function seed(){return{role:null,next:2041,rating:0,
 staff:['Kleiser Castillo','Rolan Dyquiangco','John Rey Juliano'],
 requests:[
-{id:'DR-2036',title:'Corridor light flickering',cat:'Electrical',pri:'Normal',status:'Resolved',room:'Room 204 corridor',desc:'The light outside my room flickers at night.',by:ME,staff:'Liza Cruz',date:'Oct 2, 2026, 6:10 PM',hist:[{t:'Oct 2, 2026, 6:10 PM',x:'Request submitted (Received)'},{t:'Oct 3, 2026, 9:00 AM',x:'Assigned to Liza Cruz'},{t:'Oct 4, 2026, 2:30 PM',x:'Status: Resolved. Note: Starter replaced.'}]},
-{id:'DR-2038',title:'Wi-Fi drops in study lounge',cat:'Internet',pri:'Normal',status:'Assigned',room:'Study Lounge',desc:'Connection drops every few minutes.',by:'Jamie Lim',staff:'Ben Ocampo',date:'Oct 12, 2026, 8:45 PM',hist:[{t:'Oct 12, 2026, 8:45 PM',x:'Request submitted (Received)'},{t:'Oct 13, 2026, 10:00 AM',x:'Assigned to Ben Ocampo'}]}],
+{id:'DR-2036',title:'Corridor light flickering',cat:'Electrical',pri:'Normal',status:'Resolved',room:'Room 204 corridor',desc:'The light outside my room flickers at night.',by:ME,staff:'Kleiser Castillo',date:'Oct 2, 2026, 6:10 PM',hist:[{t:'Oct 2, 2026, 6:10 PM',x:'Request submitted (Received)'},{t:'Oct 3, 2026, 9:00 AM',x:'Assigned to Kleiser Castillo'},{t:'Oct 4, 2026, 2:30 PM',x:'Status: Resolved. Note: Starter replaced.'}]},
+{id:'DR-2038',title:'Wi-Fi drops in study lounge',cat:'Internet',pri:'Normal',status:'Assigned',room:'Study Lounge',desc:'Connection drops every few minutes.',by:'Rolan Dyquiangco',staff:'John Rey Juliano',date:'Oct 12, 2026, 8:45 PM',hist:[{t:'Oct 12, 2026, 8:45 PM',x:'Request submitted (Received)'},{t:'Oct 13, 2026, 10:00 AM',x:'Assigned to John Rey Juliano'}]}],
 announcements:[
 {id:'A1',title:'Water interruption tomorrow 8am–12pm',cat:'Maintenance',content:'Water will be shut off for pipe maintenance. Please store water in advance.',status:'Published',date:'Oct 15, 2026'},
 {id:'A2',title:'Dorm inspection this Saturday 9am',cat:'Notice',content:'Routine room inspection. Please keep rooms accessible.',status:'Published',date:'Oct 14, 2026'},
